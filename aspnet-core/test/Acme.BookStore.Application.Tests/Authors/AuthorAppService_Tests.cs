@@ -48,7 +48,7 @@ public class AuthorAppService_Tests : BookStoreApplicationTestBase
             }
         );
 
-      //  authorDto.Id.ShouldNotBe(Guid.Empty);
+        authorDto.Id.ShouldNotBe(Guid.Empty);
         authorDto.Name.ShouldBe("Edward Bellamy");
     }
 
@@ -68,5 +68,5 @@ public class AuthorAppService_Tests : BookStoreApplicationTestBase
         });
     }
 
-   
+    
 }
