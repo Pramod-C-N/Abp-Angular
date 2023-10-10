@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Acme.BookStore.Books
 {
+    [Serializable]
     public class CreateUpdateBookDto
     {
         [Required]

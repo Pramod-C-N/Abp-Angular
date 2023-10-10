@@ -5,6 +5,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace Acme.BookStore.Books
 {
+    [Serializable]
     public class BookDto : AuditedEntityDto<Guid>
     {
         public Guid AuthorId { get; set; }

@@ -11,7 +11,7 @@ namespace Acme.BookStore.Books
     {
         public Guid AuthorId { get; set; }
 
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
         public BookType Type { get; set; }
 
