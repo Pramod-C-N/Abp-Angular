@@ -27,6 +27,7 @@ const routes: Routes = [
   },
   { path: 'books', loadChildren: () => import('./book/book.module').then(m => m.BookModule) },
   { path: 'authors', loadChildren: () => import('./author/author.module').then(m => m.AuthorModule) },
+  { path: 'Metronicc', loadChildren: () => import('./metronicc/metronicc.module').then(m => m.MetroniccModule) },
 ];
 
 @NgModule({
